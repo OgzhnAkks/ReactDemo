@@ -15,7 +15,7 @@ class App extends React.Component {
         Fonksiyon içerisinde, (setTimeout) kullanılarak bir gecikme ayarlanır ve bu süre boyunca (this.timeout) adlı bir zamanlayıcı 
         öğesi bulunur ve gecikme süresi sona erdiğinde (setState) işlevi kullanılarak (search) durum değişkeni ayarlanır.
         Ancak bu işlemi yaparken bileşenin durumu önceden güncellenmiş olabilir ve bu sebepten ötürü (event.target.value) girdi alanındaki değeri temsil etmeyebilir ve
-        sonuç olarak bu mantık hatası, kullanıcının girdiği değeri doğru şekilde almayı engelleyebilir ve beklenmedik sonuçlara neden olabilir.
+        sonuç olarak bu mantık hatası, kullanıcının girdiği değeri doğru şekilde almayı engelleyebilir.
 
         Cannot read properties of null (reading 'value') (Input girildiğibde ekranda karşılaşılacak hata)
 
